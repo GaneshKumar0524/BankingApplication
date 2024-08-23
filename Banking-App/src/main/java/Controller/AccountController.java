@@ -20,8 +20,6 @@ import Service.AccountService;
 @RestController
 @RequestMapping("/api/accounts")
 public class AccountController {
-	
-	
 	AccountService accountservice;
 	
 	//Add account restApi
@@ -75,5 +73,4 @@ public class AccountController {
 		return  ResponseEntity.ok("Account is deleted successfully !!!");
 		
 	}
-	
 }
